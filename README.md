@@ -110,3 +110,38 @@ of data provides scope for the more adventurous to explore further. Does the
 population of plane types that use NYC match the general population in the FAA
 database? Is there anything surprising about the registered addresses of the planes
 that use NYC? (I don't know...)
+
+## UK Environment Agency Water Quality Archive
+
+## Keywords
+environment, water, quality, EA open datasets
+
+### Summary
+Data on water quality measurements around England. Sample points can be coastal, estuarine waters,
+rivers, lakes, canals or groundwaters. Data from years 2000 onwards are available. A large number
+of water quality parameters are provided along, for example, the sample locations name and
+position, and date of course. The purpose of the sample is also given.
+
+### What I love about it
+Firstly, the documentation available is excellent. I commend the EA for this. Note that it's
+open data, but they do request you acknowledge the source if you use the data (well it would
+only be polite). Note also that there's an API *but I recommend you don't use this*. The reason
+is that there are CSV files available that are really easy to download and start using and ideal
+for a capstone project. You can pick a region and a year, download the file, and you're off. There's
+plenty of scope for demonstrating data wrangling because, for example
+
+* different quality parameters are provided for different purposes
+* the data format is just begging to be made "wide"
+
+What locations would you select? What patterns can you see over time? Can you infer any relationships
+between the various water quality parameters? If you nail this and get bored, can you find any local
+historic weather data (e.g. rainfall) to join with it? If you have an environmental interest, this
+could be a great selection of data.
+
+One sneaky hint that I use myself is that the download data have location in easting and northing and
+this gives you a really easy way to just plot locations as x and y in a scatter plot to essentially
+get a geographic plan view! 
+
+### How do I get it?
+The download page is [here](http://environment.data.gov.uk/water-quality/view/download#).
+It's really easy to navigate to the [Documentation](http://environment.data.gov.uk/water-quality/view/doc/reference).
